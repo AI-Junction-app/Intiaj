@@ -1,0 +1,32 @@
+{
+  "name": "intiaj",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.80.1",
+    "@react-three/fiber": "^8.13.6",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.5",
+    "form-data": "^4.0.0",
+    "framer-motion": "^10.12.17",
+    "gsap": "^3.12.2",
+    "mailgun.js": "^9.3.0",
+    "next": "13.4.5",
+    "nodemailer": "^6.9.5",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-responsive": "^9.0.2",
+    "read-pkg-up": "^10.0.0",
+    "tailwindcss": "3.3.2",
+    "three": "^0.155.0",
+    "typewriter-effect": "^2.20.1"
+  }
+}
