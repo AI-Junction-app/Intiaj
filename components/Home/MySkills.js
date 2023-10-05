@@ -76,8 +76,9 @@ function Word({ children, ...props }) {
       onClick={() => console.log("clicked")}
       {...props}
       {...fontProps}
-      children={children}
-    />
+    >
+      {children}
+    </Text>
   );
 }
 

@@ -27,7 +27,7 @@ export default function MyworksComponent2() {
         <h2 className="text-sm my-4 font-semibold text-gray-800 mx-24 text-center">Cooker Partner is a powerful mobile application designed to empower restaurant owners and seamlessly integrate them into the Cooker ecosystem.
           This extension of Cooker allows restaurant owners to efficiently manage orders, menus, payments, and order history.
           I collaborated with Cooker Partner to enhance its user experience,
-          and I'm thrilled to showcase its capabilities and innovations.</h2>
+          and I&apos;m thrilled to showcase its capabilities and innovations.</h2>
 
         <div className="flex items-center justify-center  my-8 rounded-lg">
           <Link href={{
@@ -122,7 +122,7 @@ export default function MyworksComponent2() {
           <h2 className="text-sm my-4 font-semibold text-gray-800 mx-10 text-start">Cooker Partner is a powerful mobile application designed to empower restaurant owners and seamlessly integrate them into the Cooker ecosystem.
             This extension of Cooker allows restaurant owners to efficiently manage orders, menus, payments, and order history.
             I collaborated with Cooker Partner to enhance its user experience,
-            and I'm thrilled to showcase its capabilities and innovations.</h2>
+            and I&apos;m thrilled to showcase its capabilities and innovations.</h2>
         </div>
 
         <div >
@@ -132,21 +132,21 @@ export default function MyworksComponent2() {
             animate={{ x: -500 }}
             transition={{ duration: 10, repeat: Infinity, }}
           >
-            <Image alt=''
+            <Image alt='ca1'
               src={require("../../app/Icons/ca1.gif")}
               height={250}
               width={100}
               className="mx-5"
             />
-            <Image alt=''
+            <Image alt='ca2'
               src={require("../../app/Icons/ca2.png")}
               height={250}
               width={100}
               className="mx-5"
             />
-            <Image alt='' src={require("../../app/Icons/ca3.jpg")} height={250}
+            <Image alt='ca3' src={require("../../app/Icons/ca3.jpg")} height={250}
               width={100} className="mx-5" />
-            <Image alt='' src={require("../../app/Icons/ca5.png")} height={250}
+            <Image alt='ca4' src={require("../../app/Icons/ca5.png")} height={250}
               width={100} className="mx-5" />
 
           </motion.div>
@@ -156,21 +156,21 @@ export default function MyworksComponent2() {
             animate={{ x: -600 }}
             transition={{ duration: 11, repeat: Infinity, }}
           >
-            <Image alt=''
+            <Image alt='ca5'
               src={require("../../app/Icons/cpp1.png")}
               height={250}
               width={100}
               className="mx-5"
             />
-            <Image alt=''
+            <Image alt='ca6'
               src={require("../../app/Icons/cpp2.png")}
               height={250}
               width={100}
               className="mx-5"
             />
-            <Image alt='' src={require("../../app/Icons/cpp4.png")} height={250}
+            <Image alt='ca7' src={require("../../app/Icons/cpp4.png")} height={250}
               width={100} className="mx-5" />
-            <Image alt='' src={require("../../app/Icons/cpp5.png")} height={250}
+            <Image alt='ca8' src={require("../../app/Icons/cpp5.png")} height={250}
               width={100} className="mx-5" />
 
 
