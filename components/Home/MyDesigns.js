@@ -36,15 +36,15 @@ function MyDesigns() {
         <h2 className="text-white font-semibold text-lg">Designed Stunning Logos, Posters and Banners for Cooker</h2>
         <div className="flex items-center justify-around my-14">
           <div className="m-2">
-            <Image src={require('../../app/Icons/d1.png')} height={600} width={300} />
+            <Image alt="d1" src={require('../../app/Icons/d1.png')} height={600} width={300} />
             <p style={{ fontSize: 8 }} className="font-bold mx-1">Poster1.png</p>
           </div>
           <div className="m-2">
-            <Image src={require('../../app/Icons/d2.png')} height={600} width={300} />
+            <Image alt="d2" src={require('../../app/Icons/d2.png')} height={600} width={300} />
             <p style={{ fontSize: 8 }} className="font-bold mx-1">Poster2.png</p>
           </div>
           <div className="m-2">
-            <Image src={require('../../app/Icons/d3.png')} height={600} width={300} />
+            <Image alt="d3" src={require('../../app/Icons/d3.png')} height={600} width={300} />
             <p style={{ fontSize: 8 }} className="font-bold mx-1">Poster3.png</p>
           </div>
         </div>
@@ -82,22 +82,22 @@ function MyDesigns() {
         <div className="w-1/2 h-screen p-20 ">
           <div className="flex items-center justify-evenly my-10">
             <div>
-              <Image src={require('../../public/logo512.png')} height={100} width={100} className="rounded-md" />
+              <Image alt="d4" src={require('../../public/logo512.png')} height={100} width={100} className="rounded-md" />
               <p style={{ fontSize: 8 }} className="font-bold m-1">Cooker_Logo.png</p>
             </div>
             <div>
-              <Image src={require('../../public/cpp.png')} height={100} width={100} className="rounded-md" />
+              <Image alt='d5' src={require('../../public/cpp.png')} height={100} width={100} className="rounded-md" />
               <p style={{ fontSize: 8 }} className="font-bold m-1">Cooker_Partner.png</p>
             </div>
             <div>
-              <Image src={require('../../public/cdp.png')} height={100} width={100} className="rounded-md" />
+              <Image alt="d6" src={require('../../public/cdp.png')} height={100} width={100} className="rounded-md" />
               <p style={{ fontSize: 8 }} className="font-bold m-1">Cooker_Delivery.png</p>
             </div>
           </div>
 
           <div className="overflow-hidden mx-14">
-            <Image src={require('../../app/Icons/d4.gif')} height={200} width={500} className="rounded-2xl" />
-            <Image src={require('../../app/Icons/d5.png')} height={200} width={500} className="rounded-2xl" />
+            <Image alt="d7" src={require('../../app/Icons/d4.gif')} height={200} width={500} className="rounded-2xl" />
+            <Image alt="d8" src={require('../../app/Icons/d5.png')} height={200} width={500} className="rounded-2xl" />
           </div>
         </div>
       ) : null}
@@ -123,26 +123,26 @@ function MyDesigns() {
       <h2 className="text-white font-semibold mx-10 text-sm">Designed Stunning Logos, Posters and Banners for Cooker</h2>
 
       <div className="flex items-center justify-between m-10">
-        <Image src={require('../../public/logo512.png')} height={75} width={75} />
-        <Image src={require('../../public/cdp.png')} height={75} width={75} />
-        <Image src={require('../../public/cpp.png')} height={75} width={75} />
+        <Image alt="d9" src={require('../../public/logo512.png')} height={75} width={75} />
+        <Image alt="d10" src={require('../../public/cdp.png')} height={75} width={75} />
+        <Image alt="d11" src={require('../../public/cpp.png')} height={75} width={75} />
       </div>
 
       <div className="flex items-center justify-between m-10">
         <motion.div onClick={() => setClicked('1')}>
-          <Image src={require('../../app/Icons/d1.png')} height={200} width={100} />
+          <Image alt="d12" src={require('../../app/Icons/d1.png')} height={200} width={100} />
         </motion.div>
         <motion.div onClick={() => setClicked('2')}>
-          <Image src={require('../../app/Icons/d2.png')} height={200} width={100} />
+          <Image alt="d13" src={require('../../app/Icons/d2.png')} height={200} width={100} />
         </motion.div>
         <motion.div onClick={() => setClicked('3')}>
-          <Image src={require('../../app/Icons/d3.png')} height={200} width={100} />
+          <Image alt="d14" src={require('../../app/Icons/d3.png')} height={200} width={100} />
         </motion.div>
       </div>
 
       <div className="overflow-hidden mx-14">
-        <Image src={require('../../app/Icons/d4.gif')} height={200} width={500} className="rounded-2xl" />
-        <Image src={require('../../app/Icons/d5.png')} height={200} width={500} className="rounded-2xl" />
+        <Image alt="d15" src={require('../../app/Icons/d4.gif')} height={200} width={500} className="rounded-2xl" />
+        <Image alt="d16" src={require('../../app/Icons/d5.png')} height={200} width={500} className="rounded-2xl" />
       </div>
     </div>
 
@@ -150,9 +150,9 @@ function MyDesigns() {
 
     <div className="h-screen w-screen flex items-center justify-center relative" >
       <div onClick={() => setClicked(false)} className="absolute flex-col right-5 top-32 font-bold flex items-center justify-center z-50">
-        <Image src={require('../../app/Icons/close.png')} height={55} width={55} />
+        <Image alt="d17" src={require('../../app/Icons/close.png')} height={55} width={55} />
         <p>Close</p></div>
-      <Image src={clicked === '1' ? require('../../app/Icons/d1.png') : clicked === '2' ? require('../../app/Icons/d2.png') : require('../../app/Icons/d3.png')} height={720} width={480} />
+      <Image alt="d18" src={clicked === '1' ? require('../../app/Icons/d1.png') : clicked === '2' ? require('../../app/Icons/d2.png') : require('../../app/Icons/d3.png')} height={720} width={480} />
     </div>
 }
 

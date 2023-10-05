@@ -27,36 +27,36 @@ export default function Works(params) {
               <h1 style={{ color: '#713e12' }} className="text-center font-bold text-3xl md:text-5xl md:w-1/2">“Cooker: Transforming Food Ordering for the Modern World”</h1>
               <h2 className="text-center mt-10 md:mt-20 text-sm md:text-xl md:w-1/2 md:text-center md:p-2">Unveiling Cooker: Where Purposeful Design and User-Centered Strategy Converge for Exceptional Results</h2>
               <div className="mt-10 max-w-screen md:mt-32 flex flex-row items-center justify-between overflow-x-scroll md:no-scrollbar">
-                <Image src={require('../Icons/gif_1.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
-                <Image src={require('../Icons/8.png')} height={!laptopScreen ? 200 : 500} className="mx-2" />
-                <Image src={require('../Icons/gif_2.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                <Image alt='gif1' src={require('../Icons/gif_1.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                <Image alt='1' src={require('../Icons/8.png')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                <Image alt='2' src={require('../Icons/gif_2.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
               </div>
 
               <div className="mt-10 md:mt-20 text-center font-bold md:flex md:items-center md:justify-center md:flex-col">
                 <h1 style={{ color: '#713e12' }}>Core Software & Framework Used</h1>
                 <div className="mt-5 flex items-center justify-between text-center pb-5  md:rounded-lg md:w-1/3 md:p-10">
                   <div style={{ height: 45, width: 45 }} className="rounded-full">
-                    <Image style={{ height: 45, width: 45 }} src={require('../Icons/rn.png')} className="rounded-full mb-1" />
+                    <Image alt='3' style={{ height: 45, width: 45 }} src={require('../Icons/rn.png')} className="rounded-full mb-1" />
                     <p className="text-xs">React Native</p>
                   </div>
 
                   <div style={{ height: 45, width: 45 }} className="rounded-full">
-                    <Image style={{ height: 45, width: 45 }} src={require('../Icons/expo.png')} className="rounded-full mb-1 bg-white" />
+                    <Image alt='4' style={{ height: 45, width: 45 }} src={require('../Icons/expo.png')} className="rounded-full mb-1 bg-white" />
                     <p className="text-xs">Expo</p>
                   </div>
 
                   <div style={{ height: 45, width: 45 }} className="rounded-full">
-                    <Image style={{ height: 45, width: 45 }} src={require('../Icons/firebase.png')} className="rounded-full mb-1 bg-white" />
+                    <Image alt='5' style={{ height: 45, width: 45 }} src={require('../Icons/firebase.png')} className="rounded-full mb-1 bg-white" />
                     <p className="text-xs">Firebase</p>
                   </div>
 
                   <div style={{ height: 45, width: 45 }} className="rounded-full">
-                    <Image style={{ height: 45, width: 45 }} src={require('../Icons/figma.png')} className="rounded-full mb-1" />
+                    <Image alt='6' style={{ height: 45, width: 45 }} src={require('../Icons/figma.png')} className="rounded-full mb-1" />
                     <p className="text-xs">Figma</p>
                   </div>
 
                   <div style={{ height: 45, width: 45 }} className="rounded-full">
-                    <Image style={{ height: 45, width: 45 }} src={require('../Icons/stripe-logo-1.png')} className="rounded-full mb-1" />
+                    <Image alt='7' style={{ height: 45, width: 45 }} src={require('../Icons/stripe-logo-1.png')} className="rounded-full mb-1" />
                     <p className="text-xs">Stripe</p>
                   </div>
                 </div>
@@ -78,9 +78,9 @@ export default function Works(params) {
                 </div>
 
                 <div className="mt-10 max-w-screen md:mt-32 flex flex-row items-center justify-between overflow-x-scroll md:no-scrollbar py-5">
-                  <Image src={require('../Icons/2.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 2 : 0 }} className="mx-2 shadow-lg rounded-xl border border-rose-400" />
-                  <Image src={require('../Icons/5.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 2 : 0 }} className="mx-2 shadow-lg rounded-xl border border-indigo-400" />
-                  <Image src={require('../Icons/4.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 2 : 0 }} className="mx-2 shadow-lg rounded-xl border border-fuchsia-400" />
+                  <Image alt='8' src={require('../Icons/2.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 2 : 0 }} className="mx-2 shadow-lg rounded-xl border border-rose-400" />
+                  <Image alt='9' src={require('../Icons/5.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 2 : 0 }} className="mx-2 shadow-lg rounded-xl border border-indigo-400" />
+                  <Image alt='10' src={require('../Icons/4.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 2 : 0 }} className="mx-2 shadow-lg rounded-xl border border-fuchsia-400" />
                 </div>
 
                 <div className="mt-16 md:mx-52 text-start">
@@ -90,16 +90,16 @@ export default function Works(params) {
                 </div>
 
                 <div className="mt-10 max-w-screen md:mt-32 flex flex-row items-center justify-between overflow-x-scroll md:no-scrollbar py-5">
-                  <Image src={require('../Icons/d1.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 1 : 2 }} className="mx-2 shadow-md shadow-rose-300 rounded-lg border border-rose-400" />
-                  <Image src={require('../Icons/d2.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 1 : 2 }} className="mx-2 shadow-md shadow-indigo-300 rounded-lg border border-indigo-400" />
-                  <Image src={require('../Icons/d3.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 1 : 2 }} className="mx-2 shadow-md shadow-fuchsia-300 rounded-lg border border-fuchsia-400" />
+                  <Image alt='11' src={require('../Icons/d1.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 1 : 2 }} className="mx-2 shadow-md shadow-rose-300 rounded-lg border border-rose-400" />
+                  <Image alt='12' src={require('../Icons/d2.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 1 : 2 }} className="mx-2 shadow-md shadow-indigo-300 rounded-lg border border-indigo-400" />
+                  <Image alt='13' src={require('../Icons/d3.png')} height={!laptopScreen ? 200 : 500} style={{ borderWidth: !laptopScreen ? 1 : 2 }} className="mx-2 shadow-md shadow-fuchsia-300 rounded-lg border border-fuchsia-400" />
                 </div>
 
 
 
                 <div className="mt-10 max-w-screen md:mt-24 flex flex-col md:flex-row items-center justify-between overflow-x-scroll md:no-scrollbar py-5">
-                  <Image src={require('../Icons/d4.gif')} height={!laptopScreen ? 150 : 200} className="mx-2" />
-                  <Image src={require('../Icons/d5.png')} height={!laptopScreen ? 150 : 200} className="mx-2" />
+                  <Image alt='14' src={require('../Icons/d4.gif')} height={!laptopScreen ? 150 : 200} className="mx-2" />
+                  <Image alt='15' src={require('../Icons/d5.png')} height={!laptopScreen ? 150 : 200} className="mx-2" />
 
                 </div>
 
@@ -121,7 +121,7 @@ export default function Works(params) {
                     </div>
 
                     <div onClick={() => window.open('https://play.google.com/store/apps/details?id=com.cookernht.cooker')} className="ml-5 hover:cursor-pointer hover:brightness-90">
-                      <Image src={require('../Icons/gplay.png')} height={75} />
+                      <Image alt='16' src={require('../Icons/gplay.png')} height={75} />
                     </div>
                   </div>
                   <h3 className="font-medium text-sm md:text-xl">Cooker's journey from concept to reality was rewarded with an enthusiastic response from users.
@@ -145,31 +145,31 @@ export default function Works(params) {
                 <h1 className="text-center text-rose-950 font-bold text-3xl md:text-5xl md:w-1/2">“Cooker Admin: A Bird's Eye View”</h1>
                 <h2 className="text-center mt-10 md:mt-20 text-sm md:text-xl md:w-1/2 md:text-center md:p-2">Cooker Admin is the command center for the Cooker ecosystem</h2>
                 <div className="mt-10 max-w-screen md:mt-32 flex flex-row items-center justify-between overflow-x-scroll md:no-scrollbar">
-                  <Image quality={100} src={require('../Icons/ca1.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
-                  <Image quality={100} src={require('../Icons/ca2.png')} height={!laptopScreen ? 200 : 500} className="mx-2" />
-                  <Image quality={100} src={require('../Icons/ca3.jpg')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                  <Image alt='17' quality={100} src={require('../Icons/ca1.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                  <Image alt='18' quality={100} src={require('../Icons/ca2.png')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                  <Image alt='19' quality={100} src={require('../Icons/ca3.jpg')} height={!laptopScreen ? 200 : 500} className="mx-2" />
                 </div>
 
                 <div className="mt-10 md:mt-20 text-center font-bold md:flex md:items-center md:justify-center md:flex-col">
                   <h1 className="text-rose-950">Core Software & Framework Used</h1>
                   <div className="mt-5 flex items-center justify-between text-center pb-5  md:rounded-lg md:w-1/3 md:p-10">
                     <div style={{ height: 45, width: 45 }} className="rounded-full">
-                      <Image style={{ height: 45, width: 45 }} src={require('../Icons/rn.png')} className="rounded-full mb-1" />
+                      <Image alt='20' style={{ height: 45, width: 45 }} src={require('../Icons/rn.png')} className="rounded-full mb-1" />
                       <p className="text-xs">React Native</p>
                     </div>
 
                     <div style={{ height: 45, width: 45 }} className="rounded-full">
-                      <Image style={{ height: 45, width: 45 }} src={require('../Icons/expo.png')} className="rounded-full mb-1 bg-white" />
+                      <Image alt='21' style={{ height: 45, width: 45 }} src={require('../Icons/expo.png')} className="rounded-full mb-1 bg-white" />
                       <p className="text-xs">Expo</p>
                     </div>
 
                     <div style={{ height: 45, width: 45 }} className="rounded-full">
-                      <Image style={{ height: 45, width: 45 }} src={require('../Icons/firebase.png')} className="rounded-full mb-1 bg-white" />
+                      <Image alt='22' style={{ height: 45, width: 45 }} src={require('../Icons/firebase.png')} className="rounded-full mb-1 bg-white" />
                       <p className="text-xs">Firebase</p>
                     </div>
 
                     <div style={{ height: 45, width: 45 }} className="rounded-full">
-                      <Image style={{ height: 45, width: 45 }} src={require('../Icons/figma.png')} className="rounded-full mb-1" />
+                      <Image alt='23' style={{ height: 45, width: 45 }} src={require('../Icons/figma.png')} className="rounded-full mb-1" />
                       <p className="text-xs">Figma</p>
                     </div>
                   </div>
@@ -216,31 +216,31 @@ export default function Works(params) {
                 <h1 className="text-center text-teal-900 font-bold text-3xl md:text-5xl md:w-1/2">“Cooker Partner - Empowering Restaurants with React Native”</h1>
                 <h2 className="text-center mt-10 md:mt-20 text-sm md:text-xl md:w-1/2 md:text-center md:p-2">A Comprehensive Overview of Mobile Restaurant Management Interfaces</h2>
                 <div className="mt-10 max-w-screen md:mt-32 flex flex-row items-center justify-between overflow-x-scroll md:no-scrollbar">
-                  <Image quality={100} src={require('../Icons/cpp3.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
-                  <Image quality={100} src={require('../Icons/cpp1.png')} height={!laptopScreen ? 200 : 500} className="mx-2" />
-                  <Image quality={100} src={require('../Icons/cpp2.png')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                  <Image alt='24' quality={100} src={require('../Icons/cpp3.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                  <Image alt='25' quality={100} src={require('../Icons/cpp1.png')} height={!laptopScreen ? 200 : 500} className="mx-2" />
+                  <Image alt='26' quality={100} src={require('../Icons/cpp2.png')} height={!laptopScreen ? 200 : 500} className="mx-2" />
                 </div>
 
                 <div className="mt-10 md:mt-20 text-center font-bold md:flex md:items-center md:justify-center md:flex-col">
                   <h1 className="text-teal-900">Core Software & Framework Used</h1>
                   <div className="mt-5 flex items-center justify-between text-center pb-5  md:rounded-lg md:w-1/3 md:p-10">
                     <div style={{ height: 45, width: 45 }} className="rounded-full">
-                      <Image style={{ height: 45, width: 45 }} src={require('../Icons/rn.png')} className="rounded-full mb-1" />
+                      <Image alt='27' style={{ height: 45, width: 45 }} src={require('../Icons/rn.png')} className="rounded-full mb-1" />
                       <p className="text-xs">React Native</p>
                     </div>
 
                     <div style={{ height: 45, width: 45 }} className="rounded-full">
-                      <Image style={{ height: 45, width: 45 }} src={require('../Icons/expo.png')} className="rounded-full mb-1 bg-white" />
+                      <Image alt='28' style={{ height: 45, width: 45 }} src={require('../Icons/expo.png')} className="rounded-full mb-1 bg-white" />
                       <p className="text-xs">Expo</p>
                     </div>
 
                     <div style={{ height: 45, width: 45 }} className="rounded-full">
-                      <Image style={{ height: 45, width: 45 }} src={require('../Icons/firebase.png')} className="rounded-full mb-1 bg-white" />
+                      <Image alt='29' style={{ height: 45, width: 45 }} src={require('../Icons/firebase.png')} className="rounded-full mb-1 bg-white" />
                       <p className="text-xs">Firebase</p>
                     </div>
 
                     <div style={{ height: 45, width: 45 }} className="rounded-full">
-                      <Image style={{ height: 45, width: 45 }} src={require('../Icons/figma.png')} className="rounded-full mb-1" />
+                      <Image alt='30' style={{ height: 45, width: 45 }} src={require('../Icons/figma.png')} className="rounded-full mb-1" />
                       <p className="text-xs">Figma</p>
                     </div>
                   </div>

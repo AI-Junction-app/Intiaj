@@ -45,6 +45,7 @@ function Navbar() {
         style={{ height: 50, width: 50 }}
       >
         <Image
+          alt="downlaod"
           src={require("../../app/Icons/download.png")}
           height={25}
           width={25}
@@ -71,6 +72,7 @@ function Navbar() {
         className="hover:cursor-pointer flex items-center hover:text-bold "
       >
         <Image
+          alt="brifcase"
           src={require("../../app/Icons/briefcase.png")}
           height={25}
           width={25}
@@ -98,6 +100,7 @@ function Navbar() {
         className=" hover:cursor-pointer flex items-center hover:text-bold "
       >
         <Image
+          alt="hi"
           src={require("../../app/Icons/hi.png")}
           height={25}
           width={25}

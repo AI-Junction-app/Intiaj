@@ -49,19 +49,19 @@ export default function MyworksComponent2() {
             animate={{ y: -1400 }}
             transition={{ duration: 20, repeat: Infinity }}
           >
-            <Image
+            <Image alt="ca4"
               src={require("../../app/Icons/ca4.png")}
               height={500}
               width={200}
               style={{ marginBottom: 200 }}
             />
-            <Image
+            <Image alt="ca5"
               src={require("../../app/Icons/ca2.png")}
               height={500}
               width={200}
               style={{ marginBottom: 200 }}
             />
-            <Image src={require("../../app/Icons/ca3.jpg")} height={500} width={200} />
+            <Image alt="ca6" src={require("../../app/Icons/ca3.jpg")} height={500} width={200} />
           </motion.div>
 
           <motion.div
@@ -69,19 +69,19 @@ export default function MyworksComponent2() {
             animate={{ y: -1400 }}
             transition={{ duration: 15, repeat: Infinity }}
           >
-            <Image
+            <Image alt="ca7"
               src={require("../../app/Icons/cpp1.png")}
               height={500}
               width={200}
               style={{ marginBottom: 200 }}
             />
-            <Image
+            <Image alt="ca8"
               src={require("../../app/Icons/cpp2.png")}
               height={500}
               width={200}
               style={{ marginBottom: 200 }}
             />
-            <Image src={require("../../app/Icons/ca5.png")} height={500} width={200} />
+            <Image alt="ca9" src={require("../../app/Icons/ca5.png")} height={500} width={200} />
           </motion.div>
 
           <motion.div
@@ -89,19 +89,19 @@ export default function MyworksComponent2() {
             animate={{ y: -1400 }}
             transition={{ duration: 20, repeat: Infinity }}
           >
-            <Image
+            <Image alt="ca10"
               src={require("../../app/Icons/cpp4.png")}
               height={500}
               width={200}
               style={{ marginBottom: 200 }}
             />
-            <Image
+            <Image alt="ca11"
               src={require("../../app/Icons/cpp5.png")}
               height={500}
               width={200}
               style={{ marginBottom: 200 }}
             />
-            <Image src={require("../../app/Icons/cpp6.png")} height={500} width={200} />
+            <Image alt="ca21" src={require("../../app/Icons/cpp6.png")} height={500} width={200} />
           </motion.div>
         </div>
       ) : null}

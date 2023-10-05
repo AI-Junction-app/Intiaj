@@ -236,6 +236,7 @@ export default function MySkills() {
               <div className="flex p-4 items-center justify-between">
                 <div className="flex items-center flex-col">
                   <Image
+                    alt="firebase"
                     src={require("../../app/Icons/firebase.png")}
                     height={widthNumber}
                     width={widthNumber}
@@ -243,21 +244,25 @@ export default function MySkills() {
                   <p className="font-bold text-gray-700 text-sm">Firebase</p>
                 </div>
                 <Image
+                  alt="nodejs"
                   src={require("../../app/Icons/nodejs.png")}
                   height={widthNumber}
                   width={widthNumber}
                 />
                 <Image
+                  alt="axios"
                   src={require("../../app/Icons/axios.png")}
                   height={widthNumber}
                   width={widthNumber}
                 />
                 <Image
+                  alt="vercel"
                   src={require("../../app/Icons/vercel.jpg")}
                   height={widthNumber}
                   width={widthNumber}
                 />
                 <Image
+                  alt="expo"
                   src={require("../../app/Icons/expo.png")}
                   height={75}
                   width={75}
@@ -271,6 +276,7 @@ export default function MySkills() {
               <div className="flex p-4 items-center justify-start">
                 <div className="flex items-center flex-col mr-16">
                   <Image
+                    alt="ph"
                     src={require("../../app/Icons/photoshop.png")}
                     height={widthNumber}
                     width={widthNumber}
@@ -280,6 +286,7 @@ export default function MySkills() {
 
                 <div className="flex items-center flex-col">
                   <Image
+                    alt="figma"
                     src={require("../../app/Icons/figma.png")}
                     height={widthNumber}
                     width={widthNumber}

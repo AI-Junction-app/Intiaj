@@ -61,20 +61,20 @@ export default function Page() {
     {!useScreenSize().isDesktopOrLaptop ? <div className="flex items-center justify-center flex-col">
       <div className="flex flex-row items-center justify-between m-5">
         <div className="flex flex-col items-center justify-center p-2" onClick={() => window.open('tel:+917557877440')}>
-          <Image src={require('../Icons/phone.png')} height={25} width={25} />
+          <Image alt='phone' src={require('../Icons/phone.png')} height={25} width={25} />
           <p className="p-2 text-xs font-bold " >+91 75578 77440</p>
         </div>
         <div className="flex flex-col items-center justify-center p-2" onClick={() => window.open('mailto:intiaj.dev@gmail.com?subject=&body=')}>
-          <Image src={require('../Icons/mail.png')} height={25} width={25} />
+          <Image alt='mail' src={require('../Icons/mail.png')} height={25} width={25} />
           <p className="p-2 text-xs font-bold">intiaj.dev@gmail.com</p>
         </div>
         <div className="flex flex-col items-center justify-center p-2">
-          <Image src={require('../Icons/location.png')} height={25} width={25} />
+          <Image alt='location' src={require('../Icons/location.png')} height={25} width={25} />
           <p className="p-2 text-xs font-bold">Kolkata</p>
         </div>
       </div>
       <div className="flex items-center justify-center flex-col p-4" onClick={() => window.open('https://wa.me/7557877440', '_blank')}>
-        <Image src={require('../Icons/whatsapp-button.webp')} height={65} width={130} />
+        <Image alt='whatsapp2' src={require('../Icons/whatsapp-button.webp')} height={65} width={130} />
         <p className="p-2 text-xs font-bold">Drop me a message on whatsapp</p>
       </div>
     </div> : null}
@@ -90,7 +90,7 @@ export default function Page() {
             <h3 className="text-sm font-bold hover:cursor-pointer hover:text-rose-500" onClick={() => window.open('mailto:intiaj.dev@gmail.com?subject=&body=')}>intiaj.dev@gmail.com</h3>
             <h3 className="text-sm font-normal text-center">or</h3>
             <div className="hover:cursor-pointer hover:brightness-125" onClick={() => window.open('https://wa.me/7557877440', '_blank')}>
-              <Image src={require('../Icons/whatsapp-button.webp')} height={65} width={130} />
+              <Image alt='whatsapp' src={require('../Icons/whatsapp-button.webp')} height={65} width={130} />
 
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function Page() {
           <div className="py-5 flex items-center justify-center flex-col">
             <h2 className="text-base">Social media</h2>
             <div onClick={() => window.open('https://instagram.com/just_intiaj?igshid=OGQ5ZDc2ODk2ZA==')} className="bg-white w-6 rounded-full hover:cursor-pointer hover:brightness-110">
-              <Image src={require('../Icons/instagram.png')} height={25} width={25} />
+              <Image alt='insta2' src={require('../Icons/instagram.png')} height={25} width={25} />
             </div>
           </div>
         </div>
@@ -134,8 +134,8 @@ export default function Page() {
       </div>
     </div> : <div className="flex items-center justify-center flex-col flex-1 mt-24 bg-white p-2">
       {status === 'Email sent successfully' ?
-        <Image src={require('../Icons/success.png')} height={75} width={75} /> :
-        <Image src={require('../Icons/failed-message.png')} height={75} width={75} className="bg-white rounded-full p-1" />
+        <Image alt='sucess' src={require('../Icons/success.png')} height={75} width={75} /> :
+        <Image alt='failed' src={require('../Icons/failed-message.png')} height={75} width={75} className="bg-white rounded-full p-1" />
 
       }
       <p className={`font-bold ${status === 'Email sent successfully' ? 'text-green-500' : 'text-red-500'} text-center p-2`}>{status}</p>

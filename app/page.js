@@ -52,21 +52,21 @@ export default function Home() {
           </div>
           <Link href={'/contact'}>
             <div style={{ borderWidth: 2 }} className="cursor-pointer pr-1 m-2 text-lg border border-emerald-500 rounded-xl p-1 text-white flex items-center justify-center hover:text-black hover:bg-emerald-500">
-              <Image src={require('./Icons/green-tea.png')} height={20} width={20} className="mx-1" />
+              <Image alt="green-tea" src={require('./Icons/green-tea.png')} height={20} width={20} className="mx-1" />
               <p className="mx-1">Lets do this</p>
             </div>
           </Link>
         </div>
         <div className="py-40 md:py-24 flex items-center justify-center flex-col">
-          <Image quality={100} src={require('../app/Icons/intiaj.jpg')} height={45} width={45} className="rounded-full my-2" />
+          <Image alt="intiaj1" quality={100} src={require('../app/Icons/intiaj.jpg')} height={45} width={45} className="rounded-full my-2" />
           <p className="font-light p-2 text-white">“Growing and improving every day.”</p>
 
           <div className="pt-10 flex items-center flex-row justify-around">
             <div onClick={() => window.open('mailto:intiaj.dev@gmail.com')} className="rounded-full p-2 m-2 bg-white border border-emerald-400 cursor-pointer hover:brightness-110 brightness-95 hover:bg-emerald-400">
-              <Image src={require('../app/Icons/gmail.png')} height={25} width={25} />
+              <Image alt="gmail" src={require('../app/Icons/gmail.png')} height={25} width={25} />
             </div>
             <div onClick={() => window.open('https://instagram.com/just_intiaj?igshid=OGQ5ZDc2ODk2ZA==')} className="rounded-full p-2 m-2 bg-white border border-emerald-400 cursor-pointer hover:brightness-110 brightness-95 hover:bg-emerald-400">
-              <Image src={require('../app/Icons/instagram.png')} height={25} width={25} />
+              <Image alt="insta" src={require('../app/Icons/instagram.png')} height={25} width={25} />
             </div>
 
           </div>
@@ -76,9 +76,9 @@ export default function Home() {
 
             <div className="flex items-center flex-row my-5 ">
               <p className="pr-2">Made with</p>
-              <Image src={require('../app/Icons/next.png')} height={25} width={25} className="rounded-full" />
+              <Image alt="next" src={require('../app/Icons/next.png')} height={25} width={25} className="rounded-full" />
               <p className="px-2">&</p>
-              <Image src={require('../app/Icons/Tailwinds.png')} height={25} width={25} className="rounded-full bg-white" />
+              <Image alt="tailwind" src={require('../app/Icons/Tailwinds.png')} height={25} width={25} className="rounded-full bg-white" />
             </div>
           </div>
         </div>
