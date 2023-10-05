@@ -15,7 +15,7 @@ export function CloudOne({ x, y, z, rx, ry, rz }) {
   const group = useRef(null);
 
   useEffect(() => {
-    if (group.current) {
+    if (typeof document !== "undefined" && group.current) {
       gsap.set(group.current.position, { x: 150 });
 
       gsap
@@ -26,8 +26,6 @@ export function CloudOne({ x, y, z, rx, ry, rz }) {
         })
         .repeat(Infinity);
     }
-
-    console.log(group.current);
   }, []);
   return (
     <group

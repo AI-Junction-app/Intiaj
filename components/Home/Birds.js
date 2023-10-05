@@ -17,14 +17,18 @@ export function Birds() {
   const { actions, names } = useAnimations(animations, group);
 
   useEffect(() => {
-    gsap.set(group.current.position, {z: -10, x: 2})
-    gsap.to(group.current.position, {
+    if (typeof document !== "undefined") {
+      gsap.set(group.current.position, { z: -10, x: 2 });
+      gsap.to(group.current.position, {
         z: 10,
         x: -10,
         duration: 15,
         ease: 'none'
-    }).repeat(Infinity)
-    actions[names[0]].reset().play();
+      }).repeat(Infinity);
+      actions[names[0]].reset().play();
+    }
+
+
   }, []);
   return (
     <group scale={0.02}

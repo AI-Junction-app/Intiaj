@@ -7,13 +7,16 @@ export function Laptop(props) {
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
-    // Set the ArmatureAction to loop only once
-    actions["ArmatureAction"].timeScale = 0.2;
-    // Set the ArmatureAction to loop once
-    actions["ArmatureAction"].setLoop(THREE.LoopOnce, 1);
+    if (typeof document !== "undefined") {
+      // Set the ArmatureAction to loop only once
+      actions["ArmatureAction"].timeScale = 0.2;
+      // Set the ArmatureAction to loop once
+      actions["ArmatureAction"].setLoop(THREE.LoopOnce, 1);
 
-    // Play the animation
-    actions["ArmatureAction"].play();
+      // Play the animation
+      actions["ArmatureAction"].play();
+    }
+
   }, [])
   return (
     <group ref={group} {...props} dispose={null} position={[-1, 0, 1]}>

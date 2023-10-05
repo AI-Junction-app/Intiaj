@@ -6,7 +6,7 @@ Source: https://sketchfab.com/3d-models/html-logo-3d-model-ab8b32cab3364027ab00a
 Title: HTML logo 3d model
 */
 
-import React, { useRef } from "react";
+import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function HtmlLogo({ x, y, z }) {

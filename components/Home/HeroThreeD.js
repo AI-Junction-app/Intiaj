@@ -1,7 +1,7 @@
 "use client";
 
 import * as THREE from "three";
-import { Canvas, extend, useFrame } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import {
   CameraControls,
   Sparkles,
@@ -10,7 +10,7 @@ import {
   useCursor,
 } from "@react-three/drei";
 import { angleToRadians } from "../utils/Angle";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Laptop } from "./Laptop";
 import { Tree } from "./Tree";
 import { CloudOne } from "./CloudOne";
@@ -30,7 +30,7 @@ import { useScreenSize } from "../../app/utils/screenSize";
 
 export const HeroThreeD = () => {
   const texture = new THREE.TextureLoader().load("/javascript-logo.png");
-  return (
+  return typeof document !== "undefined" ? (
     <Canvas
       className={useScreenSize().isDesktopOrLaptop ? 'h-screen' : 'h-1/2'}
       style={{
@@ -128,7 +128,7 @@ export const HeroThreeD = () => {
         maxPolarAngle={Math.PI / 2.2}
       />
     </Canvas>
-  );
+  ) : null;
 };
 
 function Frame() {

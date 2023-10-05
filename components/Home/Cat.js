@@ -18,22 +18,27 @@ export function Cat() {
   const [on, setOn] = useState(false);
 
   useEffect(() => {
-    gsap.set(group.current.position, { z: -3, x: -6 });
+    if (typeof document !== "undefined") {
+      gsap.set(group.current.position, { z: -3, x: -6 });
 
-    // Animate from right to left
-    gsap
-      .to(group.current.position, {
-        duration: 10, // Animation duration in seconds
-        z: 1, // Final position to the left side
-        ease: "none",
-        x: -1.5,
-      })
-      .then(() => {
-        actions["Scene"].stop();
-        setOn(true);
-      });
-    actions["Scene"].timeScale = 0.85;
-    actions["Scene"].reset().play();
+      // Animate from right to left
+      gsap
+        .to(group.current.position, {
+          duration: 10, // Animation duration in seconds
+          z: 1, // Final position to the left side
+          ease: "none",
+          x: -1.5,
+        })
+        .then(() => {
+          actions["Scene"].stop();
+          setOn(true);
+        });
+
+      actions["Scene"].timeScale = 0.85;
+      actions["Scene"].reset().play();
+    }
+
+
   }, []);
   return (
     <group ref={group} dispose={null} rotation={[0, angleToRadians(45), 0]}>

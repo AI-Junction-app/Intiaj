@@ -9,14 +9,7 @@ function Navbar() {
   const [hoverInWork, setHoverInWork] = useState(false);
 
   const handleDownload = () => {
-    const pdfUrl =
-      "https://drive.google.com/uc?export=download&id=1t3WPcJk44wyGL9VxZ5SDz6_OQtDkdNqw"; // Replace with the actual URL of your PDF
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "downloaded.pdf"; // Specify the name of the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    alert('Hi')
   };
 
   return (

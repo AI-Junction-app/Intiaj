@@ -7,7 +7,10 @@ export function Fire() {
   const { actions, names } = useAnimations(animations, group);
 
   useEffect(() => {
-    actions[names[0]].reset().play();
+    if (typeof document !== "undefined") {
+      actions[names[0]].reset().play();
+    }
+
   }, []);
   return (
     <group ref={group} position={[2.5, 0, -2.1]} dispose={null} scale={0.9}>
