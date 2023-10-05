@@ -21,7 +21,8 @@ export default function Home() {
         />
       </Head>
       <main className="flex flex-col backdrop-blur-md bg-white w-screen overflow-hidden">
-        <HeroSection />
+        {typeof window !== "undefined" ? <HeroSection /> : null}
+
         <h1 style={{ fontFamily: 'Bebas-Regular' }} className="text-center text-black text-3xl p-4 my-10">
           My recent
           <Link href={{

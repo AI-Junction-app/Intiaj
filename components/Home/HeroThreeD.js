@@ -31,7 +31,7 @@ import { useScreenSize } from "../../app/utils/screenSize";
 export const HeroThreeD = () => {
   const texture = new THREE.TextureLoader().load("/javascript-logo.png");
   const screensize = useScreenSize().isDesktopOrLaptop
-  return typeof document !== "undefined" ? (
+  return typeof window !== "undefined" ? (
     <Canvas
       className={screensize ? 'h-screen' : 'h-1/2'}
       style={{
