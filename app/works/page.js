@@ -24,7 +24,7 @@ export default function Works(params) {
             </div>
 
             <div className="mt-20 p-2 md:flex md:items-center md:justify-center md:flex-col">
-              <h1 style={{ color: '#713e12' }} className="text-center font-bold text-3xl md:text-5xl md:w-1/2">“Cooker: Transforming Food Ordering for the Modern World”</h1>
+              <h1 style={{ color: '#713e12' }} className="text-center font-bold text-3xl md:text-5xl md:w-1/2">{`“Cooker: Transforming Food Ordering for the Modern World”`}</h1>
               <h2 className="text-center mt-10 md:mt-20 text-sm md:text-xl md:w-1/2 md:text-center md:p-2">Unveiling Cooker: Where Purposeful Design and User-Centered Strategy Converge for Exceptional Results</h2>
               <div className="mt-10 max-w-screen md:mt-32 flex flex-row items-center justify-between overflow-x-scroll md:no-scrollbar">
                 <Image alt='gif1' src={require('../Icons/gif_1.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
@@ -67,13 +67,13 @@ export default function Works(params) {
                     restaurant-quality meals, right at their doorstep. As a freelance developer,
                     I took on the challenge of transforming this vision into a tangible reality.
                     From the inception of the project, it was clear that attention to detail, a user-centric approach,
-                    and a seamless user experience were essential ingredients for Cooker's success.</h3>
+                    and a seamless user experience were essential ingredients for Cooker&apos;s success.</h3>
                 </div>
 
                 <div className="my-16 md:mx-52 text-start">
                   <h2 style={{ color: '#713e12' }} className="my-2 md:text-2xl">Frontend and Backend Development</h2>
                   <h3 className="font-medium text-sm pb-4 md:text-xl">Implemented the frontend of the mobile app using React Native, ensuring smooth navigation, user-friendly interfaces, and responsive layouts.</h3>
-                  <h3 className="font-medium text-sm pb-4 md:text-xl">Utilized Firebase's authentication, Firestore database, and Cloud Functions to handle user data, order management, and real-time updates.</h3>
+                  <h3 className="font-medium text-sm pb-4 md:text-xl">Utilized Firebase&apos;s authentication, Firestore database, and Cloud Functions to handle user data, order management, and real-time updates.</h3>
                   <h3 className="font-medium text-sm pb-4 md:text-xl">Integrated the Stripe API for secure payment processing, including support for credit/debit card payments. </h3>
                 </div>
 
@@ -86,7 +86,7 @@ export default function Works(params) {
                 <div className="mt-16 md:mx-52 text-start">
                   <h2 style={{ color: '#713e12' }} className="my-2 md:text-2xl">Graphic Design Work</h2>
                   <h3 className="font-medium text-sm pb-4 md:text-xl">The branding elements of Cooker, including logos, posters and banners were carefully crafted using Figma and Photoshop.
-                    This attention to design detail contributed to the app's visual appeal and brand recognition.</h3>
+                    This attention to design detail contributed to the app&apos;s visual appeal and brand recognition.</h3>
                 </div>
 
                 <div className="mt-10 max-w-screen md:mt-32 flex flex-row items-center justify-between overflow-x-scroll md:no-scrollbar py-5">
@@ -124,9 +124,9 @@ export default function Works(params) {
                       <Image alt='16' src={require('../Icons/gplay.png')} height={75} />
                     </div>
                   </div>
-                  <h3 className="font-medium text-sm md:text-xl">Cooker's journey from concept to reality was rewarded with an enthusiastic response from users.
+                  <h3 className="font-medium text-sm md:text-xl">Cooker&apos;s journey from concept to reality was rewarded with an enthusiastic response from users.
                     The app quickly gained traction, amassing more than <span className="font-bold">4000+ downloads</span> and carried through <span className="font-bold">over 700 deliveries</span> in a relatively short time.
-                    These numbers are a testament to the app's appeal and its ability to meet the needs of food enthusiasts and busy individuals seeking convenient dining solutions.</h3>
+                    These numbers are a testament to the app&apos;s appeal and its ability to meet the needs of food enthusiasts and busy individuals seeking convenient dining solutions.</h3>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Works(params) {
 
 
               <div className="mt-20 p-2 md:flex md:items-center md:justify-center md:flex-col">
-                <h1 className="text-center text-rose-950 font-bold text-3xl md:text-5xl md:w-1/2">“Cooker Admin: A Bird's Eye View”</h1>
+                <h1 className="text-center text-rose-950 font-bold text-3xl md:text-5xl md:w-1/2">“Cooker Admin: A Bird&apos;s Eye View”</h1>
                 <h2 className="text-center mt-10 md:mt-20 text-sm md:text-xl md:w-1/2 md:text-center md:p-2">Cooker Admin is the command center for the Cooker ecosystem</h2>
                 <div className="mt-10 max-w-screen md:mt-32 flex flex-row items-center justify-between overflow-x-scroll md:no-scrollbar">
                   <Image alt='17' quality={100} src={require('../Icons/ca1.gif')} height={!laptopScreen ? 200 : 500} className="mx-2" />
@@ -179,7 +179,7 @@ export default function Works(params) {
                     <h3 className="font-medium text-sm md:text-xl"> Cooker Admin serves as the central hub of the Cooker ecosystem,
                       offering comprehensive tools for administrators to oversee and optimize operations.
                       This case study explores the development of Cooker Admin, an essential extension of the Cooker app,
-                      designed to enhance the platform's administrative capabilities.</h3>
+                      designed to enhance the platform&apos;s administrative capabilities.</h3>
                   </div>
 
                   <div className="my-16 md:mx-52 text-start">
