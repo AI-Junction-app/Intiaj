@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import { screenSize } from "../utils/screenSize";
+import { useScreenSize } from "../utils/screenSize";
 import Link from "next/link";
 
 export default function Page() {
@@ -58,7 +58,7 @@ export default function Page() {
       <h1 className="font-bold text-center text-sm text-gray-100 py-5">Any question or remarks? Just write me a message!</h1>
     </div>
 
-    {!screenSize().isDesktopOrLaptop ? <div className="flex items-center justify-center flex-col">
+    {!useScreenSize().isDesktopOrLaptop ? <div className="flex items-center justify-center flex-col">
       <div className="flex flex-row items-center justify-between m-5">
         <div className="flex flex-col items-center justify-center p-2" onClick={() => window.open('tel:+917557877440')}>
           <Image src={require('../Icons/phone.png')} height={25} width={25} />

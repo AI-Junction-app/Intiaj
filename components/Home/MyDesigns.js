@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
-import { screenSize } from "@/app/utils/screenSize";
+import { useScreenSize } from "@/app/utils/screenSize";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { Float, OrbitControls } from "@react-three/drei";
@@ -14,7 +14,7 @@ function MyDesigns() {
   const ref = useRef(null);
   const inView = useInView(ref)
 
-  return screenSize().isDesktopOrLaptop ? (
+  return useScreenSize().isDesktopOrLaptop ? (
     <motion.div
       ref={ref}
       style={{

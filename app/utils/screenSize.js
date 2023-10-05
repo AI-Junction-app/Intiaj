@@ -1,6 +1,6 @@
-const { useMediaQuery } = require("react-responsive");
+import { useMediaQuery } from "react-responsive";
 
-export function screenSize() {
+export function useScreenSize() {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1224px)",
   });

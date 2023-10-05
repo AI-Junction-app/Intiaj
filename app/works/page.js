@@ -3,12 +3,12 @@
 import Navbar from "@/components/Home/Navbar";
 import Image from "next/image";
 import React, { useState } from "react";
-import { screenSize } from "../utils/screenSize";
+import { useScreenSize } from "../utils/screenSize";
 
 export default function Works(params) {
   const sParam = params?.searchParams?.project ? params.searchParams.project : 'cooker'
   const [selectedProject, setSelectedProject] = useState(sParam)
-  const laptopScreen = screenSize().isDesktopOrLaptop
+  const laptopScreen = useScreenSize().isDesktopOrLaptop
   return (
     <div className="bg-white text-black p-4">
       <Navbar />

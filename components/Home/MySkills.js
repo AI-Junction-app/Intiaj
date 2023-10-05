@@ -11,7 +11,7 @@ import {
 } from "@react-three/drei";
 import { getRandomRainbowColor } from "@/app/utils/rainbowColor";
 import Image from "next/image";
-import { screenSize } from "@/app/utils/screenSize";
+import { useScreenSize } from "@/app/utils/screenSize";
 import { useInView } from "framer-motion";
 
 const skillsArr = [
@@ -105,7 +105,7 @@ function Cloud({ count = 4, radius = 20 }) {
 }
 
 export default function MySkills() {
-  const widthNumber = screenSize().isDesktopOrLaptop ? 75 : 45;
+  const widthNumber = useScreenSize().isDesktopOrLaptop ? 75 : 45;
   const ref = useRef(null);
   const inView = useInView(ref)
   return (

@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useRef, useState } from "react";
 import { AnimatePresence, motion, useInView } from "framer-motion";
 
-import { screenSize } from "@/app/utils/screenSize";
+import { useScreenSize } from "@/app/utils/screenSize";
 import Link from "next/link";
 
 function MyworksComponent() {
@@ -12,7 +12,7 @@ function MyworksComponent() {
   const ref = useRef(null);
   const inView = useInView(ref)
 
-  return screenSize().isDesktopOrLaptop ? (
+  return useScreenSize().isDesktopOrLaptop ? (
     <AnimatePresence>
       <motion.div
         ref={ref}

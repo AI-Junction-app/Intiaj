@@ -3,7 +3,7 @@
 import React, { useRef } from "react";
 import { AnimatePresence, motion, useInView } from "framer-motion";
 import Image from "next/image";
-import { screenSize } from "@/app/utils/screenSize";
+import { useScreenSize } from "@/app/utils/screenSize";
 import Link from "next/link";
 
 
@@ -11,7 +11,7 @@ export default function MyworksComponent2() {
 
   const ref = useRef(null);
   const inView = useInView(ref)
-  return screenSize().isDesktopOrLaptop ? (
+  return useScreenSize().isDesktopOrLaptop ? (
     <motion.div
       ref={ref}
       initial={{ opacity: 0 }}

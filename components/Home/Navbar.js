@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { screenSize } from "@/app/utils/screenSize";
+import { useScreenSize } from "@/app/utils/screenSize";
 
 function Navbar() {
   const [hoverIn, setHoverIn] = useState(false);
@@ -55,7 +55,7 @@ function Navbar() {
           className={` text-xs mx-2 ${!hoverIn ? "text-blue-400" : "text-rose-400"
             }`}
         >
-          {screenSize().isDesktopOrLaptop ? 'Résumé' : 'Résumé'}
+          {useScreenSize().isDesktopOrLaptop ? 'Résumé' : 'Résumé'}
         </p>
       </div>
 
@@ -82,7 +82,7 @@ function Navbar() {
             }`}
         >
 
-          {screenSize().isDesktopOrLaptop ? 'My Works' : 'Works'}
+          {useScreenSize().isDesktopOrLaptop ? 'My Works' : 'Works'}
         </p>
       </Link>
 
@@ -109,7 +109,7 @@ function Navbar() {
             }`}
         >
 
-          {screenSize().isDesktopOrLaptop ? 'Say Hi!' : 'Contact'}
+          {useScreenSize().isDesktopOrLaptop ? 'Say Hi!' : 'Contact'}
         </p>
       </Link>
     </div>

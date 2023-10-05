@@ -25,14 +25,14 @@ import { CrismasTree } from "./CrismasTree";
 import { Flowers2 } from "./Flowers2";
 import { DaftPunk } from "./DaftPunk";
 import { Fire } from "./Fire";
-import { screenSize } from "../../app/utils/screenSize";
+import { useScreenSize } from "../../app/utils/screenSize";
 
 
 export const HeroThreeD = () => {
   const texture = new THREE.TextureLoader().load("/javascript-logo.png");
   return (
     <Canvas
-      className={screenSize().isDesktopOrLaptop ? 'h-screen' : 'h-1/2'}
+      className={useScreenSize().isDesktopOrLaptop ? 'h-screen' : 'h-1/2'}
       style={{
         cursor: "grab",
       }}
