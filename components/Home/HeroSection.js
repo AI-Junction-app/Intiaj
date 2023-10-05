@@ -1,6 +1,6 @@
 "use client";
 
-import React, { Suspense } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
 import Typewriter from "typewriter-effect";
@@ -78,11 +78,8 @@ function HeroSection() {
         }}
       >
 
-        <Suspense
-          fallback={() => null}
-        >
-          <HeroThreeD />
-        </Suspense>
+        <HeroThreeD />
+
       </div>
     </motion.div>
   );

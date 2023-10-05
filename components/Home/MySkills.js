@@ -123,38 +123,107 @@ export default function MySkills() {
           {/* Add your text and images here */}
           <div>
             <div className="bg-white p-2 md:p-6 rounded-lg overflow-x-scroll md:no-scrollbar">
-              <h1 className="text-black font-extrabold">
-                Front-end Devolopment
-              </h1>
+              <h1 className="text-black font-extrabold">Front-end Devolopment</h1>
 
               <div className="flex p-4 items-center justify-between">
                 <Image
                   src={require("../../app/Icons/html-5.png")}
                   height={widthNumber}
                   width={widthNumber}
+                  alt="HTML"
                 />
                 <Image
                   src={require("../../app/Icons/css-3.png")}
                   height={widthNumber}
                   width={widthNumber}
+                  alt="CSS"
                 />
                 <Image
                   src={require("../../app/Icons/js.png")}
                   height={widthNumber}
                   width={widthNumber}
+                  alt="JavaScript"
                 />
                 <Image
                   src={require("../../app/Icons/react.png")}
                   height={widthNumber}
                   width={widthNumber}
+                  alt="React"
                 />
                 <div className="flex items-center flex-col">
                   <Image
                     src={require("../../app/Icons/rn.png")}
                     height={widthNumber}
                     width={widthNumber}
+                    alt="React Native"
                   />
                   <p className="font-bold text-black text-sm">React Native</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-2 md:p-6 rounded-lg my-4 overflow-x-scroll md:no-scrollbar">
+              <h1 className="text-black font-extrabold">Back-end Devolopment</h1>
+
+              <div className="flex p-4 items-center justify-between">
+                <div className="flex items-center flex-col">
+                  <Image
+                    src={require("../../app/Icons/firebase.png")}
+                    height={widthNumber}
+                    width={widthNumber}
+                    alt="Firebase"
+                  />
+                  <p className="font-bold text-gray-700 text-sm">Firebase</p>
+                </div>
+                <Image
+                  src={require("../../app/Icons/nodejs.png")}
+                  height={widthNumber}
+                  width={widthNumber}
+                  alt="Node.js"
+                />
+                <Image
+                  src={require("../../app/Icons/axios.png")}
+                  height={widthNumber}
+                  width={widthNumber}
+                  alt="Axios"
+                />
+                <Image
+                  src={require("../../app/Icons/vercel.jpg")}
+                  height={widthNumber}
+                  width={widthNumber}
+                  alt="Vercel"
+                />
+                <Image
+                  src={require("../../app/Icons/expo.png")}
+                  height={75}
+                  width={75}
+                  alt="Expo"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-2 md:p-6 rounded-lg my-4  overflow-x-scroll md:no-scrollbar">
+              <h1 className="text-black font-extrabold">Design Tools</h1>
+
+              <div className="flex p-4 items-center justify-start">
+                <div className="flex items-center flex-col mr-16">
+                  <Image
+                    src={require("../../app/Icons/photoshop.png")}
+                    height={widthNumber}
+                    width={widthNumber}
+                    alt="Photoshop"
+                  />
+                  <p className="font-bold text-gray-700 text-sm">Photoshop</p>
+                </div>
+
+                <div className="flex items-center flex-col">
+                  <Image
+                    src={require("../../app/Icons/figma.png")}
+                    height={widthNumber}
+                    width={widthNumber}
+                    alt="Figma"
+                  />
+                  <p className="font-bold text-gray-700 text-sm">Figma</p>
                 </div>
               </div>
             </div>

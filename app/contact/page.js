@@ -81,7 +81,7 @@ export default function Page() {
 
     {!status ? <div className="flex items-center justify-center">
       <div className="hidden md:flex md:items-center md:justify-center md:w-1/3 text-black font-bold rounded-xl shadow-sm shadow-fuchsia-400 relative backdrop-blur-xl" style={{ height: 720 }}> {/*'linear-gradient(90deg, rgb(255, 161, 245), rgb(188, 122, 249), rgb(248, 255, 149), rgb(166, 255, 150))'*/}
-        <img src="https://img.freepik.com/free-vector/hand-drawn-muted-colors-illustration_23-2150008082.jpg?w=740&t=st=1695723037~exp=1695723637~hmac=cb5f307031c327525e221b05fc4194c30aafc98492ee87026637227185e03328" className="w-auto -z-0 absolute rounded-xl object-cover " style={{ height: 720 }} />
+        <img alt="img1" src="https://img.freepik.com/free-vector/hand-drawn-muted-colors-illustration_23-2150008082.jpg?w=740&t=st=1695723037~exp=1695723637~hmac=cb5f307031c327525e221b05fc4194c30aafc98492ee87026637227185e03328" className="w-auto -z-0 absolute rounded-xl object-cover " style={{ height: 720 }} />
         <div className="z-10 backdrop-blur-sm w-full flex items-center justify-center flex-col">
           <h1 className="text-lg py-5">Get in touch</h1>
           <div className="py-5 flex items-center justify-center flex-col">
