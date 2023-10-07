@@ -114,7 +114,7 @@ export default function MyworksComponent2() {
       transition={{ duration: 0.5 }}
       className="overflow-hidden h-auto text-black pt-10 bg-indigo-300"
     >
-      {inView ? <div>
+      <div>
         <div className="text-black flex-1 flex items-center justify-center flex-col">
           <h1 style={{ fontFamily: 'Bebas-Regular' }} className="text-2xl font-semibold text-center w-64">
             Cooker Delivery Partner | Cooker Partner | Cooker Admin
@@ -189,7 +189,7 @@ export default function MyworksComponent2() {
 
         </div>
 
-      </div> : <div className="h-screen w-screen"></div>}
+      </div>
 
 
     </motion.div>

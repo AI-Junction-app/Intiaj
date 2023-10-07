@@ -140,7 +140,7 @@ function MyDesigns() {
         </motion.div>
       </div>
 
-      <div className="overflow-hidden mx-14">
+      <div className="flex flex-col items-center justify-center overflow-hidden mx-14">
         <Image alt="d15" src={require('../../app/Icons/d4.gif')} height={200} width={500} className="rounded-2xl" />
         <Image alt="d16" src={require('../../app/Icons/d5.png')} height={200} width={500} className="rounded-2xl" />
       </div>

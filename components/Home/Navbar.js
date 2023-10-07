@@ -8,9 +8,6 @@ function Navbar() {
   const [hoverInHi, setHoverInHi] = useState(false);
   const [hoverInWork, setHoverInWork] = useState(false);
 
-  const handleDownload = () => {
-    alert('Hi')
-  };
 
   return (
     <div className={`flex items-center justify-evenly absolute top-0 -left-5 w-screen mx-1 md:w-1/2 md:justify-around overflow-x-scroll md:no-scrollbar`}>
@@ -26,33 +23,34 @@ function Navbar() {
           />
         </div></Link>
 
-      <div
-        onClick={() => handleDownload()}
-        onMouseLeave={() => {
-          setHoverIn(false);
-        }}
-        onMouseEnter={() => {
-          setHoverIn(true);
-        }}
-        className="hover:cursor-pointer flex items-center hover:text-bold"
-        style={{ height: 50, width: 50 }}
-      >
-        <Image
-          alt="downlaod"
-          src={require("../../app/Icons/download.png")}
-          height={25}
-          width={25}
-          className={`${hoverIn ? "animate-ping" : "animate-none"}`}
-        />
-
-        <p
-          className={` text-xs mx-2 ${!hoverIn ? "text-blue-400" : "text-rose-400"
-            }`}
+      <a href='/Resume.pdf' download>
+        <div
+          onMouseLeave={() => {
+            setHoverIn(false);
+          }}
+          onMouseEnter={() => {
+            setHoverIn(true);
+          }}
+          className="hover:cursor-pointer flex items-center hover:text-bold"
+          style={{ height: 50, width: 50 }}
         >
-          {useScreenSize().isDesktopOrLaptop ? 'Résumé' : 'Résumé'}
-        </p>
-      </div>
+          <Image
+            alt="downlaod"
+            src={require("../../app/Icons/download.png")}
+            height={25}
+            width={25}
+            className={`${hoverIn ? "animate-ping" : "animate-none"}`}
+          />
 
+          <p
+            className={` text-xs mx-2 ${!hoverIn ? "text-blue-400" : "text-rose-400"
+              }`}
+          >
+            {useScreenSize().isDesktopOrLaptop ? 'Résumé' : 'Résumé'}
+          </p>
+        </div>
+
+      </a>
       <Link
         style={{ height: 50, width: 50 }}
         href={"/works"}
